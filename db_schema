@@ -1,0 +1,67 @@
+user table:
+	uid (pk)
+	username
+	first_name
+	last_name
+	email
+	password
+
+user_role table:
+	urid (pk)
+	user_id (user.uid)
+	role (1=admin, 2=validater, 3=developer, 4=guest)
+
+team table:
+	tid (pk)
+	team_name (uq)
+	team_lead_id (user.uid)
+
+team_members table:
+	tmid (pk)
+	team_id (team.tid)
+	member_id (user.id)
+	join_date
+
+event table:
+	eid (pk)
+	start_date
+	end_date
+	event_name
+
+event_team table:
+	etid (pk)
+	event_id (event.eid)
+	team_id (team.tid)
+
+city :
+	cid
+	name
+	
+new one
+event_team_member_learned table:
+	etlid
+	event_id
+	event_team_id (even_team.etid)
+	member_id (user.id)
+	topic
+	points
+	points_created_by (1=alg, 2=validator)
+	time
+	reason
+	validation
+
+
+event_team_member_points table:
+
+	event_id
+	event_team_id
+	member_id
+	points
+	points_created_by (user.id)
+	reason
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+Flask
+Flask-Bootstrap
+Flask-Login
+Flask-SQLAlchemy
+Flask-WTF
+Jinja2
+SQLAlchemy
+Werkzeug
+WTForms
+flask-admin
+flask_assets
+

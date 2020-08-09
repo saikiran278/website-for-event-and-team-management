@@ -1,0 +1,100 @@
+2019-07-17T08:44:35.577767+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 52/52] 10.63.106.31 () {52 vars in 1243 bytes} [Wed Jul 17 08:44:35 2019] GET /validaterion/event_id/2/team_id/1 => generated 2082 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+2019-07-17T08:44:44.380657+00:00 heroku[router]: at=info method=POST path="/save/event_id/2/team_id/1" host=learning-challenge.herokuapp.com request_id=e5d76530-107b-4e9d-a888-c6acb0e467ab fwd="157.51.164.74" dyno=web.1 connect=0ms service=16ms status=302 bytes=458 protocol=https
+2019-07-17T08:44:44.380987+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 53/53] 10.63.106.31 () {56 vars in 1313 bytes} [Wed Jul 17 08:44:44 2019] POST /save/event_id/2/team_id/1 => generated 275 bytes in 15 msecs (HTTP/1.1 302) 4 headers in 183 bytes (1 switches on core 0)
+2019-07-17T08:44:44.703369+00:00 heroku[router]: at=info method=GET path="/validaterion/event_id/2/team_id/1" host=learning-challenge.herokuapp.com request_id=3609651e-ba85-4c28-8f09-128b5e56f206 fwd="157.51.164.74" dyno=web.1 connect=0ms service=16ms status=200 bytes=1951 protocol=https
+2019-07-17T08:44:44.703586+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 54/54] 10.63.106.31 () {52 vars in 1259 bytes} [Wed Jul 17 08:44:44 2019] GET /validaterion/event_id/2/team_id/1 => generated 1856 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+2019-07-17T08:44:54.312894+00:00 heroku[router]: at=info method=POST path="/save/event_id/2/team_id/1" host=learning-challenge.herokuapp.com request_id=1f152e13-6a01-446b-9b38-47e3c3934522 fwd="157.51.164.74" dyno=web.1 connect=0ms service=14ms status=302 bytes=458 protocol=https
+2019-07-17T08:44:54.313259+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 55/55] 10.63.106.31 () {56 vars in 1313 bytes} [Wed Jul 17 08:44:54 2019] POST /save/event_id/2/team_id/1 => generated 275 bytes in 13 msecs (HTTP/1.1 302) 4 headers in 183 bytes (1 switches on core 0)
+2019-07-17T08:44:54.663930+00:00 heroku[router]: at=info method=GET path="/validaterion/event_id/2/team_id/1" host=learning-challenge.herokuapp.com request_id=2fdb4975-c82a-42a7-8fc4-67bc0a50644d fwd="157.51.164.74" dyno=web.1 connect=0ms service=14ms status=200 bytes=1098 protocol=https
+2019-07-17T08:44:54.664303+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 56/56] 10.63.106.31 () {52 vars in 1259 bytes} [Wed Jul 17 08:44:54 2019] GET /validaterion/event_id/2/team_id/1 => generated 1003 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+2019-07-17T08:44:56.863916+00:00 heroku[router]: at=info method=GET path="/validater" host=learning-challenge.herokuapp.com request_id=8a42f2c2-5796-4953-a589-0ccba59d165a fwd="157.51.164.74" dyno=web.1 connect=1ms service=13ms status=200 bytes=1220 protocol=https
+2019-07-17T08:44:56.864231+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 57/57] 10.63.106.31 () {52 vars in 1211 bytes} [Wed Jul 17 08:44:56 2019] GET /validater => generated 1125 bytes in 12 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+2019-07-17T08:44:58.799760+00:00 heroku[router]: at=info method=GET path="/event_team_show/2" host=learning-challenge.herokuapp.com request_id=5631c44a-c559-4bec-bee8-86849c2274d4 fwd="157.51.164.74" dyno=web.1 connect=0ms service=24ms status=200 bytes=1220 protocol=https
+2019-07-17T08:44:58.795921+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [`pid: 9|app: 0|req: 58/58] 10.63.106.31 () {52 vars in 1203 bytes} [Wed Jul 17 08:44:58 2019] GET /event_team_show/2 => generated 1125 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 95 bytes (1 switches on core 0)
+2019-07-17T08:45:00.473031+00:00 heroku[router]: at=info method=GET path="/event_info/2" host=learning-challenge.herokuapp.com request_id=1381b85e-4e09-4e96-ad5e-4f6c9352683c fwd="157.51.164.74" dyno=web.1 connect=0ms service=22ms status=500 bytes=374 protocol=https
+2019-07-17T08:45:00.471888+00:00 app[web.1]: [2019-07-17 08:45:00,470] ERROR in app: Exception on /event_info/2 [GET]
+2019-07-17T08:45:00.471903+00:00 app[web.1]: Traceback (most recent call last):
+2019-07-17T08:45:00.471913+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+2019-07-17T08:45:00.471916+00:00 app[web.1]: cursor, statement, parameters, context
+2019-07-17T08:45:00.471918+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+2019-07-17T08:45:00.471920+00:00 app[web.1]: cursor.execute(statement, parameters)
+2019-07-17T08:45:00.471922+00:00 app[web.1]: psycopg2.errors.GroupingError: column "team.team_name" must appear in the GROUP BY clause or be used in an aggregate function
+2019-07-17T08:45:00.471925+00:00 app[web.1]: LINE 1: SELECT team.team_name AS team_team_name, sum(event_team_lear...
+2019-07-17T08:45:00.471927+00:00 app[web.1]: ^
+2019-07-17T08:45:00.471930+00:00 app[web.1]: 
+2019-07-17T08:45:00.471932+00:00 app[web.1]: 
+2019-07-17T08:45:00.471934+00:00 app[web.1]: The above exception was the direct cause of the following exception:
+2019-07-17T08:45:00.471935+00:00 app[web.1]: 
+2019-07-17T08:45:00.471937+00:00 app[web.1]: Traceback (most recent call last):
+2019-07-17T08:45:00.471940+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 2311, in wsgi_app
+2019-07-17T08:45:00.471942+00:00 app[web.1]: response = self.full_dispatch_request()
+2019-07-17T08:45:00.471944+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 1834, in full_dispatch_request
+2019-07-17T08:45:00.471946+00:00 app[web.1]: rv = self.handle_user_exception(e)
+2019-07-17T08:45:00.471948+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 1737, in handle_user_exception
+2019-07-17T08:45:00.471949+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2019-07-17T08:45:00.471951+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/_compat.py", line 36, in reraise
+2019-07-17T08:45:00.471952+00:00 app[web.1]: raise value
+2019-07-17T08:45:00.471954+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 1832, in full_dispatch_request
+2019-07-17T08:45:00.471955+00:00 app[web.1]: rv = self.dispatch_request()
+2019-07-17T08:45:00.471957+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 1818, in dispatch_request
+2019-07-17T08:45:00.471958+00:00 app[web.1]: return self.view_functions[rule.endpoint](**req.view_args)
+2019-07-17T08:45:00.471960+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+2019-07-17T08:45:00.471961+00:00 app[web.1]: return func(*args, **kwargs)
+2019-07-17T08:45:00.471963+00:00 app[web.1]: File "./app.py", line 358, in event_info
+2019-07-17T08:45:00.471978+00:00 app[web.1]: return render_template('validater_event_info.html',top_performer=top_performer, top_team=top_team, username=current_user.username,admin='admin',validater='validater')
+2019-07-17T08:45:00.471979+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/templating.py", line 135, in render_template
+2019-07-17T08:45:00.471981+00:00 app[web.1]: context, ctx.app)
+2019-07-17T08:45:00.471982+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/templating.py", line 117, in _render
+2019-07-17T08:45:00.471984+00:00 app[web.1]: rv = template.render(context)
+2019-07-17T08:45:00.471985+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/jinja2/asyncsupport.py", line 76, in render
+2019-07-17T08:45:00.471987+00:00 app[web.1]: return original_render(self, *args, **kwargs)
+2019-07-17T08:45:00.471988+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/jinja2/environment.py", line 1008, in render
+2019-07-17T08:45:00.471990+00:00 app[web.1]: return self.environment.handle_exception(exc_info, True)
+2019-07-17T08:45:00.471991+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/jinja2/environment.py", line 780, in handle_exception
+2019-07-17T08:45:00.471993+00:00 app[web.1]: reraise(exc_type, exc_value, tb)
+2019-07-17T08:45:00.471994+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/jinja2/_compat.py", line 37, in reraise
+2019-07-17T08:45:00.471996+00:00 app[web.1]: raise value.with_traceback(tb)
+2019-07-17T08:45:00.471997+00:00 app[web.1]: File "/app/templates/validater_event_info.html", line 3, in top-level template code
+2019-07-17T08:45:00.471999+00:00 app[web.1]: {% import "bootstrap/wtf.html" as wtf %}
+2019-07-17T08:45:00.472006+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 1, in top-level template code
+2019-07-17T08:45:00.472007+00:00 app[web.1]: {% block doc -%}
+2019-07-17T08:45:00.472009+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 4, in block "doc"
+2019-07-17T08:45:00.472010+00:00 app[web.1]: {%- block html %}
+2019-07-17T08:45:00.472012+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 20, in block "html"
+2019-07-17T08:45:00.472013+00:00 app[web.1]: {% block body -%}
+2019-07-17T08:45:00.472014+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask_bootstrap/templates/bootstrap/base.html", line 23, in block "body"
+2019-07-17T08:45:00.472016+00:00 app[web.1]: {% block content -%}
+2019-07-17T08:45:00.472017+00:00 app[web.1]: File "/app/templates/validater_event_info.html", line 32, in block "content"
+2019-07-17T08:45:00.472019+00:00 app[web.1]: {% for team in top_team %}
+2019-07-17T08:45:00.472020+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3323, in __iter__
+2019-07-17T08:45:00.472021+00:00 app[web.1]: return self._execute_and_instances(context)
+2019-07-17T08:45:00.472023+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/orm/query.py", line 3348, in _execute_and_instances
+2019-07-17T08:45:00.472024+00:00 app[web.1]: result = conn.execute(querycontext.statement, self._params)
+2019-07-17T08:45:00.472026+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 988, in execute
+2019-07-17T08:45:00.472034+00:00 app[web.1]: return meth(self, multiparams, params)
+2019-07-17T08:45:00.472035+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 287, in _execute_on_connection
+2019-07-17T08:45:00.472037+00:00 app[web.1]: return connection._execute_clauseelement(self, multiparams, params)
+2019-07-17T08:45:00.472038+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1107, in _execute_clauseelement
+2019-07-17T08:45:00.472040+00:00 app[web.1]: distilled_params,
+2019-07-17T08:45:00.472041+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1248, in _execute_context
+2019-07-17T08:45:00.472042+00:00 app[web.1]: e, statement, parameters, cursor, context
+2019-07-17T08:45:00.472044+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1466, in _handle_dbapi_exception
+2019-07-17T08:45:00.472045+00:00 app[web.1]: util.raise_from_cause(sqlalchemy_exception, exc_info)
+2019-07-17T08:45:00.472047+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 383, in raise_from_cause
+2019-07-17T08:45:00.472048+00:00 app[web.1]: reraise(type(exception), exception, tb=exc_tb, cause=cause)
+2019-07-17T08:45:00.472049+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 128, in reraise
+2019-07-17T08:45:00.472051+00:00 app[web.1]: raise value.with_traceback(tb)
+2019-07-17T08:45:00.472052+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1244, in _execute_context
+2019-07-17T08:45:00.472054+00:00 app[web.1]: cursor, statement, parameters, context
+2019-07-17T08:45:00.472055+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 550, in do_execute
+2019-07-17T08:45:00.472057+00:00 app[web.1]: cursor.execute(statement, parameters)
+2019-07-17T08:45:00.472058+00:00 app[web.1]: sqlalchemy.exc.ProgrammingError: (psycopg2.errors.GroupingError) column "team.team_name" must appear in the GROUP BY clause or be used in an aggregate function
+2019-07-17T08:45:00.472060+00:00 app[web.1]: LINE 1: SELECT team.team_name AS team_team_name, sum(event_team_lear...
+2019-07-17T08:45:00.472061+00:00 app[web.1]: ^
+2019-07-17T08:45:00.472063+00:00 app[web.1]: 
+2019-07-17T08:45:00.472064+00:00 app[web.1]: [SQL: SELECT team.team_name AS team_team_name, sum(event_team_learned.points) AS sum_1, count(event_team_learned.points) AS count_1
+2019-07-17T08:45:00.472066+00:00 app[web.1]: FROM event_team_learned JOIN team ON team.tid = event_team_learned.event_team_id
+2019-07-17T08:45:00.472067+00:00 app[web.1]: WHERE event_team_learned.event_id = %(event_id_1)s GROUP BY event_team_learned.event_team_id]
+2019-07-17T08:45:00.472069+00:00 app[web.1]: [parameters: {'event_id_1': '2'}]
+2019-07-17T08:45:00.472070+00:00 app[web.1]: (Background on this error at: http://sqlalche.me/e/f405)
+2019-07-17T08:45:00.473307+00:00 app[web.1]: {address space usage: 289398784 bytes/275MB} {rss usage: 56549376 bytes/53MB} [pid: 9|app: 0|req: 59/59] 10.63.106.31 () {52 vars in 1201 bytes} [Wed Jul 17 08:45:00 2019] GET /event_info/2 => generated 290 bytes in 21 msecs (HTTP/1.1 500) 2 headers in 84 bytes (1 switches on core 0)
